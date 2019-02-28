@@ -22,7 +22,6 @@ export default class Header extends Component {
 const styles = StyleSheet.create({
 
     container: {
-        flex: 1,
         marginTop: Platform.OS === "ios" ? 20 : 0, 
         padding: 10,
         borderBottomWidth: 1,
